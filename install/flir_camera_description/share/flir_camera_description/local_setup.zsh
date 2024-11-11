@@ -1,0 +1,1 @@
+/root/ros2_ws/build/flir_camera_description/ament_cmake_environment_hooks/local_setup.zsh

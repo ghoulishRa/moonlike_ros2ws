@@ -1,0 +1,1 @@
+/root/ros2_ws/build/flir_camera_msgs/ament_cmake_environment_hooks/local_setup.bash

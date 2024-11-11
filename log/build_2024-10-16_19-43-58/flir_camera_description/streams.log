@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/root/ros2_ws/build/flir_camera_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/flir_camera_description -- -j8 -l8
+[0.108s] Invoked command in '/root/ros2_ws/build/flir_camera_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/flir_camera_description -- -j8 -l8
+[0.171s] Invoking command in '/root/ros2_ws/build/flir_camera_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/flir_camera_description
+[0.180s] -- Install configuration: "RelWithDebInfo"
+[0.181s] -- Execute custom install script
+[0.182s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/launch/demo.launch.py
+[0.183s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/meshes/flir_blackfly_s.stl
+[0.183s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/urdf/demo.urdf.xacro
+[0.183s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/urdf/flir_blackfly_s.urdf.xacro
+[0.184s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/ament_index/resource_index/package_run_dependencies/flir_camera_description
+[0.184s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/ament_index/resource_index/parent_prefix_path/flir_camera_description
+[0.184s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/ament_prefix_path.sh
+[0.185s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/ament_prefix_path.dsv
+[0.185s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/path.sh
+[0.185s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/path.dsv
+[0.185s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.bash
+[0.186s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.sh
+[0.186s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.zsh
+[0.186s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.dsv
+[0.186s] -- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/package.dsv
+[0.201s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/ament_index/resource_index/packages/flir_camera_description
+[0.201s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/cmake/flir_camera_descriptionConfig.cmake
+[0.201s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/cmake/flir_camera_descriptionConfig-version.cmake
+[0.201s] -- Up-to-date symlink: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/package.xml
+[0.205s] Invoked command in '/root/ros2_ws/build/flir_camera_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/flir_camera_description

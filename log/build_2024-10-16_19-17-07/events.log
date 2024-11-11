@@ -1,0 +1,570 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (flir_camera_description) JobQueued: {'identifier': 'flir_camera_description', 'dependencies': OrderedDict()}
+[0.000456] (flir_camera_msgs) JobQueued: {'identifier': 'flir_camera_msgs', 'dependencies': OrderedDict()}
+[0.000490] (spinnaker_camera_driver) JobQueued: {'identifier': 'spinnaker_camera_driver', 'dependencies': OrderedDict([('flir_camera_msgs', '/root/ros2_ws/install/flir_camera_msgs')])}
+[0.000518] (spinnaker_synchronized_camera_driver) JobQueued: {'identifier': 'spinnaker_synchronized_camera_driver', 'dependencies': OrderedDict([('flir_camera_msgs', '/root/ros2_ws/install/flir_camera_msgs'), ('spinnaker_camera_driver', '/root/ros2_ws/install/spinnaker_camera_driver')])}
+[0.000551] (flir_camera_msgs) JobStarted: {'identifier': 'flir_camera_msgs'}
+[0.008605] (flir_camera_description) JobStarted: {'identifier': 'flir_camera_description'}
+[0.014835] (flir_camera_msgs) JobProgress: {'identifier': 'flir_camera_msgs', 'progress': 'cmake'}
+[0.015215] (flir_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/flir_camera_driver/flir_camera_msgs', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/flir_camera_msgs'], 'cwd': '/root/ros2_ws/build/flir_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/flir_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.019348] (flir_camera_description) JobProgress: {'identifier': 'flir_camera_description', 'progress': 'cmake'}
+[0.019797] (flir_camera_description) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/flir_camera_driver/flir_camera_description', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/flir_camera_description'], 'cwd': '/root/ros2_ws/build/flir_camera_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/flir_camera_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099166] (-) TimerEvent: {}
+[0.103807] (flir_camera_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.104163] (flir_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.192676] (flir_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.193624] (flir_camera_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199287] (-) TimerEvent: {}
+[0.204372] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.204928] (flir_camera_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299420] (-) TimerEvent: {}
+[0.310662] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.310949] (flir_camera_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.320696] (flir_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.320972] (flir_camera_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.321120] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.321257] (flir_camera_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.321618] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.321752] (flir_camera_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.326173] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.326485] (flir_camera_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399576] (-) TimerEvent: {}
+[0.452248] (flir_camera_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.454838] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.463169] (flir_camera_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.463510] (flir_camera_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.464134] (flir_camera_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.469088] (flir_camera_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.469800] (flir_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.470178] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.470887] (flir_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.475635] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499663] (-) TimerEvent: {}
+[0.599974] (-) TimerEvent: {}
+[0.631944] (flir_camera_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.635355] (flir_camera_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.697459] (flir_camera_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.699170] (flir_camera_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700026] (-) TimerEvent: {}
+[0.726992] (flir_camera_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.727309] (flir_camera_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.759214] (flir_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.764490] (flir_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.772830] (flir_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.785927] (flir_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800159] (-) TimerEvent: {}
+[0.803257] (flir_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.806945] (flir_camera_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.809514] (flir_camera_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.810161] (flir_camera_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.810686] (flir_camera_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.812202] (flir_camera_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.813991] (flir_camera_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.817738] (flir_camera_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.818355] (flir_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.818596] (flir_camera_description) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.818701] (flir_camera_description) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.818772] (flir_camera_description) StderrLine: {'line': b'\n'}
+[0.818842] (flir_camera_description) StderrLine: {'line': b'    CMAKE_EXPORT_COMPILE_COMMANDS\n'}
+[0.818927] (flir_camera_description) StderrLine: {'line': b'\n'}
+[0.819000] (flir_camera_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.819107] (flir_camera_description) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/flir_camera_description\n'}
+[0.824583] (flir_camera_description) CommandEnded: {'returncode': 0}
+[0.825069] (flir_camera_description) JobProgress: {'identifier': 'flir_camera_description', 'progress': 'build'}
+[0.825772] (flir_camera_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/flir_camera_description', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/flir_camera_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/flir_camera_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.828376] (flir_camera_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.874710] (flir_camera_description) CommandEnded: {'returncode': 0}
+[0.900269] (-) TimerEvent: {}
+[0.903761] (flir_camera_description) JobProgress: {'identifier': 'flir_camera_description', 'progress': 'install'}
+[0.914313] (flir_camera_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/flir_camera_description'], 'cwd': '/root/ros2_ws/build/flir_camera_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/flir_camera_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.923508] (flir_camera_description) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.924006] (flir_camera_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.924596] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/launch/demo.launch.py\n'}
+[0.937088] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/meshes/flir_blackfly_s.stl\n'}
+[0.949311] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/urdf/demo.urdf.xacro\n'}
+[0.961132] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/urdf/flir_blackfly_s.urdf.xacro\n'}
+[0.973704] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/ament_index/resource_index/package_run_dependencies/flir_camera_description\n'}
+[0.985341] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/ament_index/resource_index/parent_prefix_path/flir_camera_description\n'}
+[0.996849] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/ament_prefix_path.sh\n'}
+[1.000375] (-) TimerEvent: {}
+[1.008338] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/ament_prefix_path.dsv\n'}
+[1.020154] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/path.sh\n'}
+[1.031854] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/environment/path.dsv\n'}
+[1.043609] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.bash\n'}
+[1.054723] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.sh\n'}
+[1.065530] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.zsh\n'}
+[1.076621] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/local_setup.dsv\n'}
+[1.087762] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/package.dsv\n'}
+[1.098844] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/ament_index/resource_index/packages/flir_camera_description\n'}
+[1.100471] (-) TimerEvent: {}
+[1.109805] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/cmake/flir_camera_descriptionConfig.cmake\n'}
+[1.121103] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/cmake/flir_camera_descriptionConfig-version.cmake\n'}
+[1.123959] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.126125] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.128632] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.131279] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.132801] (flir_camera_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_description/share/flir_camera_description/package.xml\n'}
+[1.147918] (flir_camera_description) CommandEnded: {'returncode': 0}
+[1.194167] (flir_camera_description) JobEnded: {'identifier': 'flir_camera_description', 'rc': 0}
+[1.200571] (-) TimerEvent: {}
+[1.300918] (-) TimerEvent: {}
+[1.401244] (-) TimerEvent: {}
+[1.492224] (flir_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501573] (-) TimerEvent: {}
+[1.601932] (-) TimerEvent: {}
+[1.629147] (flir_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.653391] (flir_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.654693] (flir_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.678619] (flir_camera_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.679036] (flir_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.679231] (flir_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.679356] (flir_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.699423] (flir_camera_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.702052] (-) TimerEvent: {}
+[1.747473] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.749273] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.752317] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[1.753712] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[1.755368] (flir_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)\n'}
+[1.765679] (flir_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.802209] (-) TimerEvent: {}
+[1.804283] (flir_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.807248] (flir_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/flir_camera_msgs\n'}
+[1.818449] (flir_camera_msgs) CommandEnded: {'returncode': 0}
+[1.819079] (flir_camera_msgs) JobProgress: {'identifier': 'flir_camera_msgs', 'progress': 'build'}
+[1.819320] (flir_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/flir_camera_msgs', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/flir_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/flir_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.868139] (flir_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.880282] (flir_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.890389] (flir_camera_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_flir_camera_msgs\n'}
+[1.902323] (-) TimerEvent: {}
+[2.002733] (-) TimerEvent: {}
+[2.103129] (-) TimerEvent: {}
+[2.129090] (flir_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.131035] (flir_camera_msgs) StdoutLine: {'line': b'creating flir_camera_msgs.egg-info\n'}
+[2.131314] (flir_camera_msgs) StdoutLine: {'line': b'writing flir_camera_msgs.egg-info/PKG-INFO\n'}
+[2.131661] (flir_camera_msgs) StdoutLine: {'line': b'writing dependency_links to flir_camera_msgs.egg-info/dependency_links.txt\n'}
+[2.132970] (flir_camera_msgs) StdoutLine: {'line': b'writing top-level names to flir_camera_msgs.egg-info/top_level.txt\n'}
+[2.133232] (flir_camera_msgs) StdoutLine: {'line': b"writing manifest file 'flir_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.135394] (flir_camera_msgs) StdoutLine: {'line': b"reading manifest file 'flir_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.135992] (flir_camera_msgs) StdoutLine: {'line': b"writing manifest file 'flir_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.185522] (flir_camera_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_flir_camera_msgs_egg\n'}
+[2.203237] (-) TimerEvent: {}
+[2.268381] (flir_camera_msgs) StdoutLine: {'line': b'[  5%] Built target flir_camera_msgs__cpp\n'}
+[2.281382] (flir_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.281632] (flir_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.285548] (flir_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.303100] (flir_camera_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/flir_camera_msgs/msg/detail/camera_control__functions.c.o\x1b[0m\n'}
+[2.303387] (-) TimerEvent: {}
+[2.305058] (flir_camera_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/flir_camera_msgs/msg/detail/image_meta_data__functions.c.o\x1b[0m\n'}
+[2.403538] (-) TimerEvent: {}
+[2.445434] (flir_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libflir_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.495511] (flir_camera_msgs) StdoutLine: {'line': b'[ 20%] Built target flir_camera_msgs__rosidl_generator_c\n'}
+[2.503657] (-) TimerEvent: {}
+[2.511896] (flir_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.512445] (flir_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.513030] (flir_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.603791] (-) TimerEvent: {}
+[2.687420] (flir_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flir_camera_msgs/msg/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[2.688122] (flir_camera_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flir_camera_msgs/msg/camera_control__type_support.cpp.o\x1b[0m\n'}
+[2.703933] (-) TimerEvent: {}
+[2.741408] (flir_camera_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flir_camera_msgs/msg/detail/camera_control__type_support.cpp.o\x1b[0m\n'}
+[2.743145] (flir_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flir_camera_msgs/msg/detail/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[2.804049] (-) TimerEvent: {}
+[2.808242] (flir_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flir_camera_msgs/msg/detail/dds_fastrtps/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[2.904179] (-) TimerEvent: {}
+[3.004575] (-) TimerEvent: {}
+[3.063933] (flir_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flir_camera_msgs/msg/image_meta_data__type_support.cpp.o\x1b[0m\n'}
+[3.091238] (flir_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flir_camera_msgs/msg/detail/image_meta_data__type_support.c.o\x1b[0m\n'}
+[3.104715] (-) TimerEvent: {}
+[3.131006] (flir_camera_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flir_camera_msgs/msg/camera_control__type_support.cpp.o\x1b[0m\n'}
+[3.174840] (flir_camera_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flir_camera_msgs/msg/detail/camera_control__type_support.c.o\x1b[0m\n'}
+[3.179046] (flir_camera_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flir_camera_msgs/msg/detail/dds_fastrtps/camera_control__type_support.cpp.o\x1b[0m\n'}
+[3.184287] (flir_camera_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flir_camera_msgs/msg/detail/image_meta_data__type_support_c.cpp.o\x1b[0m\n'}
+[3.193876] (flir_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libflir_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.196352] (flir_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libflir_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.205968] (-) TimerEvent: {}
+[3.256755] (flir_camera_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libflir_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.278721] (flir_camera_msgs) StdoutLine: {'line': b'[ 64%] Built target flir_camera_msgs__rosidl_typesupport_cpp\n'}
+[3.304228] (flir_camera_msgs) StdoutLine: {'line': b'[ 64%] Built target flir_camera_msgs__rosidl_typesupport_c\n'}
+[3.304663] (flir_camera_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/flir_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flir_camera_msgs/msg/detail/camera_control__type_support_c.cpp.o\x1b[0m\n'}
+[3.306123] (-) TimerEvent: {}
+[3.342529] (flir_camera_msgs) StdoutLine: {'line': b'[ 66%] Built target flir_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[3.406284] (-) TimerEvent: {}
+[3.507095] (-) TimerEvent: {}
+[3.513726] (flir_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libflir_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.607237] (-) TimerEvent: {}
+[3.625355] (flir_camera_msgs) StdoutLine: {'line': b'[ 69%] Built target flir_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.707376] (-) TimerEvent: {}
+[3.747223] (flir_camera_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libflir_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.802100] (flir_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libflir_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.807505] (-) TimerEvent: {}
+[3.878710] (flir_camera_msgs) StdoutLine: {'line': b'[ 74%] Built target flir_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.907638] (-) TimerEvent: {}
+[3.924030] (flir_camera_msgs) StdoutLine: {'line': b'[ 74%] Built target flir_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.950188] (flir_camera_msgs) StdoutLine: {'line': b'[ 74%] Built target flir_camera_msgs\n'}
+[3.975850] (flir_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.007781] (-) TimerEvent: {}
+[4.108199] (-) TimerEvent: {}
+[4.208570] (-) TimerEvent: {}
+[4.308922] (-) TimerEvent: {}
+[4.409259] (-) TimerEvent: {}
+[4.437458] (flir_camera_msgs) StdoutLine: {'line': b'[ 76%] Built target flir_camera_msgs__py\n'}
+[4.462555] (flir_camera_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/flir_camera_msgs/msg/_camera_control_s.c.o\x1b[0m\n'}
+[4.462915] (flir_camera_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/flir_camera_msgs/msg/_image_meta_data_s.c.o\x1b[0m\n'}
+[4.509409] (-) TimerEvent: {}
+[4.609668] (flir_camera_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_camera_msgs/libflir_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.609957] (-) TimerEvent: {}
+[4.661766] (flir_camera_msgs) StdoutLine: {'line': b'[ 84%] Built target flir_camera_msgs__rosidl_generator_py\n'}
+[4.686330] (flir_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flir_camera_msgs/_flir_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.686565] (flir_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flir_camera_msgs/_flir_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.686641] (flir_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flir_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flir_camera_msgs/_flir_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.710092] (-) TimerEvent: {}
+[4.810476] (-) TimerEvent: {}
+[4.848930] (flir_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.849258] (flir_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.849390] (flir_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.897153] (flir_camera_msgs) StdoutLine: {'line': b'[100%] Built target flir_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.897385] (flir_camera_msgs) StdoutLine: {'line': b'[100%] Built target flir_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.897466] (flir_camera_msgs) StdoutLine: {'line': b'[100%] Built target flir_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[4.910601] (-) TimerEvent: {}
+[4.913778] (flir_camera_msgs) CommandEnded: {'returncode': 0}
+[5.008200] (flir_camera_msgs) JobProgress: {'identifier': 'flir_camera_msgs', 'progress': 'install'}
+[5.008468] (flir_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/flir_camera_msgs'], 'cwd': '/root/ros2_ws/build/flir_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/flir_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.010655] (-) TimerEvent: {}
+[5.017895] (flir_camera_msgs) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[5.018371] (flir_camera_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.018664] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/flir_camera_msgs\n'}
+[5.029779] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/camera_control.h\n'}
+[5.040808] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__functions.h\n'}
+[5.052907] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__struct.h\n'}
+[5.063610] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__type_support.h\n'}
+[5.074117] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__functions.h\n'}
+[5.084600] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__struct.h\n'}
+[5.095294] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__type_support.h\n'}
+[5.106266] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/image_meta_data.h\n'}
+[5.110756] (-) TimerEvent: {}
+[5.117207] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.128368] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/library_path.sh\n'}
+[5.139721] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/library_path.dsv\n'}
+[5.152015] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__rosidl_typesupport_fastrtps_c.h\n'}
+[5.163176] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__rosidl_typesupport_fastrtps_c.h\n'}
+[5.174258] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.185618] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/camera_control.hpp\n'}
+[5.196908] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__builder.hpp\n'}
+[5.208243] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__struct.hpp\n'}
+[5.210886] (-) TimerEvent: {}
+[5.219527] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__traits.hpp\n'}
+[5.230241] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__builder.hpp\n'}
+[5.241394] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__struct.hpp\n'}
+[5.252730] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__traits.hpp\n'}
+[5.263315] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/image_meta_data.hpp\n'}
+[5.274296] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.285305] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.296380] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.307761] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__rosidl_typesupport_introspection_c.h\n'}
+[5.311037] (-) TimerEvent: {}
+[5.318538] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__rosidl_typesupport_introspection_c.h\n'}
+[5.329249] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.340683] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/camera_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.351789] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/include/flir_camera_msgs/flir_camera_msgs/msg/detail/image_meta_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.362905] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/pythonpath.sh\n'}
+[5.373535] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/pythonpath.dsv\n'}
+[5.385317] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs-2.0.8-py3.10.egg-info/PKG-INFO\n'}
+[5.395941] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs-2.0.8-py3.10.egg-info/SOURCES.txt\n'}
+[5.407059] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs-2.0.8-py3.10.egg-info/dependency_links.txt\n'}
+[5.411171] (-) TimerEvent: {}
+[5.418087] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs-2.0.8-py3.10.egg-info/top_level.txt\n'}
+[5.430175] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/__init__.py\n'}
+[5.441172] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/_flir_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.452526] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/_flir_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.463237] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/_flir_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.473890] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.484527] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.495380] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.506433] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/libflir_camera_msgs__rosidl_generator_py.so\n'}
+[5.511314] (-) TimerEvent: {}
+[5.517279] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/__init__.py\n'}
+[5.527884] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/_camera_control.py\n'}
+[5.539275] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/_camera_control_s.c\n'}
+[5.550190] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/_image_meta_data.py\n'}
+[5.561113] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/_image_meta_data_s.c\n'}
+[5.571894] (flir_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.572133] (flir_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.572416] (flir_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/flir_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.572673] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/msg/ImageMetaData.idl\n'}
+[5.583674] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/msg/CameraControl.idl\n'}
+[5.595276] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/msg/ImageMetaData.msg\n'}
+[5.606227] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/msg/CameraControl.msg\n'}
+[5.611454] (-) TimerEvent: {}
+[5.617409] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/ament_index/resource_index/package_run_dependencies/flir_camera_msgs\n'}
+[5.628027] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/ament_index/resource_index/parent_prefix_path/flir_camera_msgs\n'}
+[5.638604] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/ament_prefix_path.sh\n'}
+[5.649718] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[5.660348] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/path.sh\n'}
+[5.671197] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/environment/path.dsv\n'}
+[5.682359] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/local_setup.bash\n'}
+[5.693075] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/local_setup.sh\n'}
+[5.704642] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/local_setup.zsh\n'}
+[5.711580] (-) TimerEvent: {}
+[5.715271] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/local_setup.dsv\n'}
+[5.725796] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/package.dsv\n'}
+[5.736683] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/ament_index/resource_index/packages/flir_camera_msgs\n'}
+[5.747847] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.758555] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.769195] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.780214] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.790967] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.801420] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.811701] (-) TimerEvent: {}
+[5.812281] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.823328] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgsConfig.cmake\n'}
+[5.834135] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgsConfig-version.cmake\n'}
+[5.845616] (flir_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/package.xml\n'}
+[5.856474] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_generator_c.so\n'}
+[5.857008] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_generator_c.so" to ""\n'}
+[5.857189] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.857739] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.857839] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.858522] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.858623] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.859041] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.859139] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_c.so\n'}
+[5.859482] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.859574] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.860160] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.860260] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[5.860658] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.890997] (flir_camera_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs'...\n"}
+[5.891307] (flir_camera_msgs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/__init__.py'...\n"}
+[5.891438] (flir_camera_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg'...\n"}
+[5.891542] (flir_camera_msgs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/__init__.py'...\n"}
+[5.891643] (flir_camera_msgs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/_camera_control.py'...\n"}
+[5.891716] (flir_camera_msgs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages/flir_camera_msgs/msg/_image_meta_data.py'...\n"}
+[5.896161] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_generator_py.so\n'}
+[5.896892] (flir_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/flir_camera_msgs/lib/libflir_camera_msgs__rosidl_generator_py.so" to ""\n'}
+[5.896996] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[5.897147] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[5.897315] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.897476] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake\n'}
+[5.897647] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.897815] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.897975] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake\n'}
+[5.898135] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.898292] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[5.898481] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.898646] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[5.898812] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.898987] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[5.899155] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.899314] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/flir_camera_msgs__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[5.899482] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.899640] (flir_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/flir_camera_msgs/share/flir_camera_msgs/cmake/export_flir_camera_msgs__rosidl_generator_pyExport-relwithdebinfo.cmake\n'}
+[5.902765] (flir_camera_msgs) CommandEnded: {'returncode': 0}
+[5.911783] (-) TimerEvent: {}
+[6.006277] (flir_camera_msgs) JobEnded: {'identifier': 'flir_camera_msgs', 'rc': 0}
+[6.007484] (spinnaker_camera_driver) JobStarted: {'identifier': 'spinnaker_camera_driver'}
+[6.011882] (-) TimerEvent: {}
+[6.015974] (spinnaker_camera_driver) JobProgress: {'identifier': 'spinnaker_camera_driver', 'progress': 'cmake'}
+[6.016335] (spinnaker_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/flir_camera_driver/spinnaker_camera_driver', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/spinnaker_camera_driver'], 'cwd': '/root/ros2_ws/build/spinnaker_camera_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/flir_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/flir_camera_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/spinnaker_camera_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/flir_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/flir_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[6.080227] (spinnaker_camera_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.111986] (-) TimerEvent: {}
+[6.156719] (spinnaker_camera_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.165958] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.212119] (-) TimerEvent: {}
+[6.249568] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.258809] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.259172] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.259398] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.262476] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.312289] (-) TimerEvent: {}
+[6.379601] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.387819] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.388096] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.388530] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.393375] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found inc dir: SPINNAKER_INCLUDE_DIRS-NOTFOUND\n'}
+[6.393866] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found variable: FALSE at SPINNAKER_LIBRARIES-NOTFOUND and SPINNAKER_INCLUDE_DIRS-NOTFOUND\n'}
+[6.394012] (spinnaker_camera_driver) StdoutLine: {'line': b'-- spinnaker not found\n'}
+[6.394071] (spinnaker_camera_driver) StdoutLine: {'line': b'-- libSpinnaker not found in system library path\n'}
+[6.412382] (-) TimerEvent: {}
+[6.474658] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Running download_spinnaker script with arguments: x86_64 /root/ros2_ws/build/spinnaker_camera_driver/usr/lib jammy\n'}
+[6.512498] (-) TimerEvent: {}
+[6.613398] (-) TimerEvent: {}
+[6.713850] (-) TimerEvent: {}
+[6.814312] (-) TimerEvent: {}
+[6.914770] (-) TimerEvent: {}
+[7.015559] (-) TimerEvent: {}
+[7.116404] (-) TimerEvent: {}
+[7.217152] (-) TimerEvent: {}
+[7.318110] (-) TimerEvent: {}
+[7.419110] (-) TimerEvent: {}
+[7.519649] (-) TimerEvent: {}
+[7.620009] (-) TimerEvent: {}
+[7.720377] (-) TimerEvent: {}
+[7.820751] (-) TimerEvent: {}
+[7.921141] (-) TimerEvent: {}
+[8.021534] (-) TimerEvent: {}
+[8.121940] (-) TimerEvent: {}
+[8.222313] (-) TimerEvent: {}
+[8.322681] (-) TimerEvent: {}
+[8.423105] (-) TimerEvent: {}
+[8.523529] (-) TimerEvent: {}
+[8.623893] (-) TimerEvent: {}
+[8.724269] (-) TimerEvent: {}
+[8.824649] (-) TimerEvent: {}
+[8.925036] (-) TimerEvent: {}
+[9.025445] (-) TimerEvent: {}
+[9.125810] (-) TimerEvent: {}
+[9.226209] (-) TimerEvent: {}
+[9.326657] (-) TimerEvent: {}
+[9.427073] (-) TimerEvent: {}
+[9.527467] (-) TimerEvent: {}
+[9.627826] (-) TimerEvent: {}
+[9.728265] (-) TimerEvent: {}
+[9.828804] (-) TimerEvent: {}
+[9.929185] (-) TimerEvent: {}
+[10.029510] (-) TimerEvent: {}
+[10.129885] (-) TimerEvent: {}
+[10.230202] (-) TimerEvent: {}
+[10.330550] (-) TimerEvent: {}
+[10.431027] (-) TimerEvent: {}
+[10.531520] (-) TimerEvent: {}
+[10.631959] (-) TimerEvent: {}
+[10.732378] (-) TimerEvent: {}
+[10.832831] (-) TimerEvent: {}
+[10.933219] (-) TimerEvent: {}
+[11.033657] (-) TimerEvent: {}
+[11.134035] (-) TimerEvent: {}
+[11.234546] (-) TimerEvent: {}
+[11.335026] (-) TimerEvent: {}
+[11.435478] (-) TimerEvent: {}
+[11.535908] (-) TimerEvent: {}
+[11.636294] (-) TimerEvent: {}
+[11.736702] (-) TimerEvent: {}
+[11.837063] (-) TimerEvent: {}
+[11.937454] (-) TimerEvent: {}
+[12.037827] (-) TimerEvent: {}
+[12.138268] (-) TimerEvent: {}
+[12.238616] (-) TimerEvent: {}
+[12.338963] (-) TimerEvent: {}
+[12.439311] (-) TimerEvent: {}
+[12.539728] (-) TimerEvent: {}
+[12.640107] (-) TimerEvent: {}
+[12.740553] (-) TimerEvent: {}
+[12.840912] (-) TimerEvent: {}
+[12.941282] (-) TimerEvent: {}
+[13.041931] (-) TimerEvent: {}
+[13.142438] (-) TimerEvent: {}
+[13.242879] (-) TimerEvent: {}
+[13.343208] (-) TimerEvent: {}
+[13.443535] (-) TimerEvent: {}
+[13.543912] (-) TimerEvent: {}
+[13.644280] (-) TimerEvent: {}
+[13.744606] (-) TimerEvent: {}
+[13.844927] (-) TimerEvent: {}
+[13.945273] (-) TimerEvent: {}
+[14.045761] (-) TimerEvent: {}
+[14.146170] (-) TimerEvent: {}
+[14.246557] (-) TimerEvent: {}
+[14.346954] (-) TimerEvent: {}
+[14.447397] (-) TimerEvent: {}
+[14.547854] (-) TimerEvent: {}
+[14.648316] (-) TimerEvent: {}
+[14.748720] (-) TimerEvent: {}
+[14.849129] (-) TimerEvent: {}
+[14.949649] (-) TimerEvent: {}
+[15.050238] (-) TimerEvent: {}
+[15.150640] (-) TimerEvent: {}
+[15.251048] (-) TimerEvent: {}
+[15.311320] (spinnaker_camera_driver) StdoutLine: {'line': b'-- PROCESS RESULT: CPU architecture is %s x86_64\n'}
+[15.311514] (spinnaker_camera_driver) StdoutLine: {'line': b'OS code name is %s jammy\n'}
+[15.311572] (spinnaker_camera_driver) StdoutLine: {'line': b'Destination folder is %s /root/ros2_ws/build/spinnaker_camera_driver/usr/lib\n'}
+[15.311627] (spinnaker_camera_driver) StdoutLine: {'line': b'Downloading SDK archive from https://packages.clearpathrobotics.com/stable/flir/Spinnaker/Ubuntu22.04/spinnaker-3.1.0.79-Ubuntu22.04-amd64-pkg.tar.gz...\n'}
+[15.311682] (spinnaker_camera_driver) StdoutLine: {'line': b'Unpacking tarball.\n'}
+[15.311734] (spinnaker_camera_driver) StdoutLine: {'line': b'Unpacking debs.\n'}
+[15.311786] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinvideo_3.1.0.79_amd64.deb\n'}
+[15.311839] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinnaker-c-dev_3.1.0.79_amd64.deb\n'}
+[15.311913] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinnaker_3.1.0.79_amd64.deb\n'}
+[15.311983] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/spinupdate-dev_3.1.0.79_amd64.deb\n'}
+[15.312053] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/spinnaker_3.1.0.79_amd64.deb\n'}
+[15.312193] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/spinview-qt_3.1.0.79_amd64.deb\n'}
+[15.312247] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/spinnaker-doc_3.1.0.79_amd64.deb\n'}
+[15.312297] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/spinview-qt-dev_3.1.0.79_amd64.deb\n'}
+[15.312369] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinvideo-c-dev_3.1.0.79_amd64.deb\n'}
+[15.312461] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/spinupdate_3.1.0.79_amd64.deb\n'}
+[15.312549] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libgentl_3.1.0.79_amd64.deb\n'}
+[15.312607] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinvideo-dev_3.1.0.79_amd64.deb\n'}
+[15.312662] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinnaker-c_3.1.0.79_amd64.deb\n'}
+[15.312719] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinvideo-c_3.1.0.79_amd64.deb\n'}
+[15.312775] (spinnaker_camera_driver) StdoutLine: {'line': b'Extracting /root/ros2_ws/build/spinnaker_camera_driver/spinnaker-3.1.0.79-amd64/libspinnaker-dev_3.1.0.79_amd64.deb\n'}
+[15.312845] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying libraries to /root/ros2_ws/build/spinnaker_camera_driver/usr/lib\n'}
+[15.312915] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libSpinnaker_C.so.3\n'}
+[15.312972] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libSpinnaker.so.3.1.0.79\n'}
+[15.313026] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libSpinnaker.so\n'}
+[15.313081] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libSpinnaker.so.3\n'}
+[15.313145] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libSpinnaker_C.so.3.1.0.79\n'}
+[15.313199] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libSpinnaker_C.so\n'}
+[15.313252] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libGenApi_gcc11_v3_0.so\n'}
+[15.313304] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libGCBase_gcc11_v3_0.so\n'}
+[15.313357] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libXmlParser_gcc11_v3_0.so\n'}
+[15.313410] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libMathParser_gcc11_v3_0.so\n'}
+[15.313467] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libLog_gcc11_v3_0.so\n'}
+[15.313520] (spinnaker_camera_driver) StdoutLine: {'line': b'Copying: libNodeMapData_gcc11_v3_0.so\n'}
+[15.313573] (spinnaker_camera_driver) StdoutLine: {'line': b'\n'}
+[15.313627] (spinnaker_camera_driver) StdoutLine: {'line': b'-- libSpinnaker library location: /root/ros2_ws/build/spinnaker_camera_driver/usr/lib/libSpinnaker.so\n'}
+[15.313681] (spinnaker_camera_driver) StdoutLine: {'line': b'-- libSpinnaker include location: /root/ros2_ws/build/spinnaker_camera_driver/opt/spinnaker/include\n'}
+[15.313734] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found inc dir: /root/ros2_ws/build/spinnaker_camera_driver/opt/spinnaker/include\n'}
+[15.313788] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found SPINNAKER: /root/ros2_ws/build/spinnaker_camera_driver/opt/spinnaker/include  \n'}
+[15.314849] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[15.351178] (-) TimerEvent: {}
+[15.451571] (-) TimerEvent: {}
+[15.464000] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.531482] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[15.551697] (-) TimerEvent: {}
+[15.565817] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[15.573784] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[15.614576] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.619324] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.627289] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.638732] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.651845] (-) TimerEvent: {}
+[15.654113] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.696427] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.699038] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.751943] (-) TimerEvent: {}
+[15.813284] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.842987] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[15.852046] (-) TimerEvent: {}
+[15.892035] (spinnaker_camera_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.906113] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.952191] (-) TimerEvent: {}
+[15.993401] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.993608] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.052309] (-) TimerEvent: {}
+[16.078255] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.079952] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.131653] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[16.152458] (-) TimerEvent: {}
+[16.160241] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[16.202753] (spinnaker_camera_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[16.203206] (spinnaker_camera_driver) StdoutLine: {'line': b'See also "/root/ros2_ws/build/spinnaker_camera_driver/CMakeFiles/CMakeOutput.log".\n'}
+[16.203342] (spinnaker_camera_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:87 (find_package):\n'}
+[16.203480] (spinnaker_camera_driver) StderrLine: {'line': b'  By not providing "Findcamera_info_manager.cmake" in CMAKE_MODULE_PATH this\n'}
+[16.203582] (spinnaker_camera_driver) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[16.203681] (spinnaker_camera_driver) StderrLine: {'line': b'  "camera_info_manager", but CMake did not find one.\n'}
+[16.203743] (spinnaker_camera_driver) StderrLine: {'line': b'\n'}
+[16.203790] (spinnaker_camera_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[16.203837] (spinnaker_camera_driver) StderrLine: {'line': b'  "camera_info_manager" with any of the following names:\n'}
+[16.203902] (spinnaker_camera_driver) StderrLine: {'line': b'\n'}
+[16.203952] (spinnaker_camera_driver) StderrLine: {'line': b'    camera_info_managerConfig.cmake\n'}
+[16.203999] (spinnaker_camera_driver) StderrLine: {'line': b'    camera_info_manager-config.cmake\n'}
+[16.204048] (spinnaker_camera_driver) StderrLine: {'line': b'\n'}
+[16.204094] (spinnaker_camera_driver) StderrLine: {'line': b'  Add the installation prefix of "camera_info_manager" to CMAKE_PREFIX_PATH\n'}
+[16.204142] (spinnaker_camera_driver) StderrLine: {'line': b'  or set "camera_info_manager_DIR" to a directory containing one of the above\n'}
+[16.204189] (spinnaker_camera_driver) StderrLine: {'line': b'  files.  If "camera_info_manager" provides a separate development package or\n'}
+[16.204236] (spinnaker_camera_driver) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[16.204284] (spinnaker_camera_driver) StderrLine: {'line': b'\n'}
+[16.204331] (spinnaker_camera_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[16.215242] (spinnaker_camera_driver) CommandEnded: {'returncode': 1}
+[16.235439] (spinnaker_camera_driver) JobEnded: {'identifier': 'spinnaker_camera_driver', 'rc': 1}
+[16.246218] (spinnaker_synchronized_camera_driver) JobSkipped: {'identifier': 'spinnaker_synchronized_camera_driver'}
+[16.246310] (-) EventReactorShutdown: {}

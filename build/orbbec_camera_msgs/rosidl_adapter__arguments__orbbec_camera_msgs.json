@@ -1,0 +1,17 @@
+{
+  "package_name": "orbbec_camera_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DeviceInfo.msg",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Extrinsics.msg",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Metadata.msg",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/IMUInfo.msg",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/RGBD.msg",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetBool.srv",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetDeviceInfo.srv",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetCameraInfo.srv",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetInt32.srv",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetString.srv",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetInt32.srv",
+    "/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetString.srv"
+  ]
+}

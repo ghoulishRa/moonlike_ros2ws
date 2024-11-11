@@ -1,0 +1,1 @@
+/root/ros2_ws/build/flir_camera_msgs/rosidl_generator_py/flir_camera_msgs/msg/__init__.py

@@ -1,0 +1,7 @@
+{
+  "package_name": "flir_camera_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/flir_camera_driver/flir_camera_msgs:msg/ImageMetaData.msg",
+    "/root/ros2_ws/src/flir_camera_driver/flir_camera_msgs:msg/CameraControl.msg"
+  ]
+}

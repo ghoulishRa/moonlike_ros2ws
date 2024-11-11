@@ -1,0 +1,1252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000893] (orbbec_camera_msgs) JobQueued: {'identifier': 'orbbec_camera_msgs', 'dependencies': OrderedDict()}
+[0.000982] (orbbec_description) JobQueued: {'identifier': 'orbbec_description', 'dependencies': OrderedDict()}
+[0.001005] (save_files) JobQueued: {'identifier': 'save_files', 'dependencies': OrderedDict()}
+[0.001024] (orbbec_camera) JobQueued: {'identifier': 'orbbec_camera', 'dependencies': OrderedDict([('orbbec_camera_msgs', '/root/ros2_ws/install/orbbec_camera_msgs')])}
+[0.001047] (orbbec_camera_msgs) JobStarted: {'identifier': 'orbbec_camera_msgs'}
+[0.011703] (orbbec_description) JobStarted: {'identifier': 'orbbec_description'}
+[0.016711] (save_files) JobStarted: {'identifier': 'save_files'}
+[0.026752] (orbbec_camera_msgs) JobProgress: {'identifier': 'orbbec_camera_msgs', 'progress': 'cmake'}
+[0.028189] (orbbec_camera_msgs) JobProgress: {'identifier': 'orbbec_camera_msgs', 'progress': 'build'}
+[0.029402] (orbbec_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/orbbec_camera_msgs', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/orbbec_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/orbbec_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033398] (orbbec_description) JobProgress: {'identifier': 'orbbec_description', 'progress': 'cmake'}
+[0.034479] (orbbec_description) JobProgress: {'identifier': 'orbbec_description', 'progress': 'build'}
+[0.035004] (orbbec_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/orbbec_description', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/orbbec_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/orbbec_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099627] (-) TimerEvent: {}
+[0.177206] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.186434] (orbbec_camera_msgs) StdoutLine: {'line': b'[  0%] Built target orbbec_camera_msgs__cpp\n'}
+[0.199770] (-) TimerEvent: {}
+[0.212607] (orbbec_camera_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_orbbec_camera_msgs\n'}
+[0.214747] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.215143] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target orbbec_camera_msgs__rosidl_generator_c\n'}
+[0.216700] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.217627] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.241299] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.243690] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.251442] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.264066] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 24%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.265029] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.265330] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp\n'}
+[0.269595] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 59%] Built target orbbec_camera_msgs__rosidl_typesupport_c\n'}
+[0.277315] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 71%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[0.293314] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.299916] (-) TimerEvent: {}
+[0.326753] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target orbbec_camera_msgs\n'}
+[0.359234] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 84%] Built target orbbec_camera_msgs__py\n'}
+[0.376580] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.400011] (-) TimerEvent: {}
+[0.404951] (orbbec_description) CommandEnded: {'returncode': 0}
+[0.405375] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 95%] Built target orbbec_camera_msgs__rosidl_generator_py\n'}
+[0.420365] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.421587] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.421917] (orbbec_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.437578] (orbbec_description) JobProgress: {'identifier': 'orbbec_description', 'progress': 'install'}
+[0.440454] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 99%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[0.440709] (orbbec_camera_msgs) StdoutLine: {'line': b'[ 99%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.440800] (orbbec_camera_msgs) StdoutLine: {'line': b'[100%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.448625] (orbbec_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/orbbec_description'], 'cwd': '/root/ros2_ws/build/orbbec_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/orbbec_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.459311] (orbbec_description) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.459942] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/launch\n'}
+[0.460168] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/launch/launch_utils.py\n'}
+[0.460326] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/launch/view_model.launch.py\n'}
+[0.460496] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes\n'}
+[0.460592] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336\n'}
+[0.460745] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra2_frame.STL\n'}
+[0.460941] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra2_optical_frame.STL\n'}
+[0.461126] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra_1_optical_frame.STL\n'}
+[0.461279] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_frame.STL\n'}
+[0.461398] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_link.STL\n'}
+[0.461502] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_optical_frame.STL\n'}
+[0.461684] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra_1_frame.STL\n'}
+[0.461826] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_optical_frame.STL\n'}
+[0.462065] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_bottom_screw_frame.STL\n'}
+[0.462166] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_frame.STL\n'}
+[0.462250] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/femto_bolt\n'}
+[0.462340] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/femto_bolt/femto_bolt.stl\n'}
+[0.462451] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/meshes/AstraPlus.stl\n'}
+[0.462539] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/urdf\n'}
+[0.462608] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/_gemini_335_336.urdf.xacro\n'}
+[0.462695] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/femto_bolt.urdf.xacro\n'}
+[0.462772] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_335.urdf.xarco\n'}
+[0.462848] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_336.urdf.xarco\n'}
+[0.462956] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/rviz\n'}
+[0.463107] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/rviz/urdf.rviz\n'}
+[0.463194] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description\n'}
+[0.463247] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description\n'}
+[0.463892] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh\n'}
+[0.464120] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv\n'}
+[0.464249] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.sh\n'}
+[0.464337] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv\n'}
+[0.464415] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.bash\n'}
+[0.464487] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.sh\n'}
+[0.464562] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh\n'}
+[0.464636] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv\n'}
+[0.464714] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/package.dsv\n'}
+[0.464791] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description\n'}
+[0.464925] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake\n'}
+[0.465025] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake\n'}
+[0.465114] (orbbec_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_description/share/orbbec_description/package.xml\n'}
+[0.467481] (orbbec_description) CommandEnded: {'returncode': 0}
+[0.500119] (-) TimerEvent: {}
+[0.516959] (orbbec_description) JobEnded: {'identifier': 'orbbec_description', 'rc': 0}
+[0.518710] (orbbec_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.519765] (orbbec_camera_msgs) StdoutLine: {'line': b'writing orbbec_camera_msgs.egg-info/PKG-INFO\n'}
+[0.520040] (orbbec_camera_msgs) StdoutLine: {'line': b'writing dependency_links to orbbec_camera_msgs.egg-info/dependency_links.txt\n'}
+[0.520302] (orbbec_camera_msgs) StdoutLine: {'line': b'writing top-level names to orbbec_camera_msgs.egg-info/top_level.txt\n'}
+[0.523905] (orbbec_camera_msgs) StdoutLine: {'line': b"reading manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.524628] (orbbec_camera_msgs) StdoutLine: {'line': b"writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.564887] (orbbec_camera_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_orbbec_camera_msgs_egg\n'}
+[0.581306] (orbbec_camera_msgs) CommandEnded: {'returncode': 0}
+[0.600208] (-) TimerEvent: {}
+[0.700601] (-) TimerEvent: {}
+[0.800893] (-) TimerEvent: {}
+[0.853422] (save_files) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/save_files', 'build', '--build-base', '/root/ros2_ws/build/save_files/build', 'install', '--record', '/root/ros2_ws/build/save_files/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/save_files', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'IsraUbuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/save_files', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/save_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/save_files/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.876322] (orbbec_camera_msgs) JobProgress: {'identifier': 'orbbec_camera_msgs', 'progress': 'install'}
+[0.876646] (orbbec_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/orbbec_camera_msgs'], 'cwd': '/root/ros2_ws/build/orbbec_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/orbbec_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.887606] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.888065] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/orbbec_camera_msgs\n'}
+[0.888318] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[0.888449] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[0.888567] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.888657] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[0.888803] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.h\n'}
+[0.888942] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.h\n'}
+[0.889064] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.c\n'}
+[0.889167] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[0.889330] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[0.889469] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.h\n'}
+[0.889546] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[0.889696] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.h\n'}
+[0.889847] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[0.889984] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.h\n'}
+[0.890106] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.h\n'}
+[0.890176] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.h\n'}
+[0.890276] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.h\n'}
+[0.890397] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.h\n'}
+[0.890556] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.c\n'}
+[0.890692] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[0.890826] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[0.891175] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.c\n'}
+[0.891364] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.h\n'}
+[0.891511] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.c\n'}
+[0.891602] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.h\n'}
+[0.891721] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.h\n'}
+[0.891800] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.h\n'}
+[0.891878] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.h\n'}
+[0.891969] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.h\n'}
+[0.892056] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[0.892180] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.h\n'}
+[0.892256] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[0.892320] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.c\n'}
+[0.892391] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.c\n'}
+[0.892492] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.c\n'}
+[0.892568] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.h\n'}
+[0.892626] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[0.892693] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[0.892760] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[0.892824] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.h\n'}
+[0.892914] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[0.892984] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.h\n'}
+[0.893067] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.c\n'}
+[0.893131] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.h\n'}
+[0.893192] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[0.893252] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[0.893324] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[0.893398] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[0.893468] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[0.893524] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.h\n'}
+[0.893588] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[0.893661] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.h\n'}
+[0.893730] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c\n'}
+[0.893796] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.c\n'}
+[0.893878] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[0.893965] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.h\n'}
+[0.894088] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[0.894159] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.h\n'}
+[0.894229] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[0.894384] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.c\n'}
+[0.894460] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.h\n'}
+[0.894538] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.h\n'}
+[0.894686] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.h\n'}
+[0.894776] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.h\n'}
+[0.894856] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.h\n'}
+[0.894963] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.h\n'}
+[0.895096] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.sh\n'}
+[0.895268] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.dsv\n'}
+[0.895351] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so\n'}
+[0.895419] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[0.895478] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[0.895545] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[0.895599] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[0.895685] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.895768] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[0.895905] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.896003] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.896065] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.896187] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[0.896331] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[0.896461] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[0.896599] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[0.896746] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h\n'}
+[0.896853] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h\n'}
+[0.897017] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[0.897177] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.897313] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.897430] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.897546] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[0.897631] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[0.897703] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.897780] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[0.897849] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h\n'}
+[0.897950] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[0.898014] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[0.898078] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.c\n'}
+[0.898150] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[0.898221] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[0.898346] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[0.898432] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.c\n'}
+[0.898503] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[0.898577] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.c\n'}
+[0.898670] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[0.898732] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[0.898799] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.c\n'}
+[0.898859] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[0.898948] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.c\n'}
+[0.899013] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.c\n'}
+[0.899075] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[0.899144] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c\n'}
+[0.899281] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c\n'}
+[0.899371] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.c\n'}
+[0.899441] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h\n'}
+[0.899608] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[0.899740] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h\n'}
+[0.899881] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.c\n'}
+[0.900055] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[0.900195] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[0.900359] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.900488] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so\n'}
+[0.900573] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[0.900704] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[0.900822] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.hpp\n'}
+[0.900945] (-) TimerEvent: {}
+[0.901063] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.hpp\n'}
+[0.901228] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[0.901356] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[0.901435] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[0.901512] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[0.901618] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__traits.hpp\n'}
+[0.901772] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[0.901914] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[0.902037] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[0.902152] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.hpp\n'}
+[0.902234] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.hpp\n'}
+[0.902366] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__builder.hpp\n'}
+[0.902527] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__builder.hpp\n'}
+[0.902753] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[0.902855] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[0.903011] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__traits.hpp\n'}
+[0.903086] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[0.903155] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.hpp\n'}
+[0.903227] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.hpp\n'}
+[0.903294] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.hpp\n'}
+[0.903360] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[0.903430] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.hpp\n'}
+[0.903498] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.hpp\n'}
+[0.903566] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[0.903682] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[0.903753] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[0.903815] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[0.903927] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[0.904031] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[0.904120] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__builder.hpp\n'}
+[0.904197] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[0.904338] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.hpp\n'}
+[0.904484] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[0.904624] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.hpp\n'}
+[0.904734] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[0.904812] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[0.904940] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__traits.hpp\n'}
+[0.905068] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[0.905155] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[0.905282] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[0.905378] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[0.905447] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__traits.hpp\n'}
+[0.905517] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__builder.hpp\n'}
+[0.905578] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[0.905648] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[0.905709] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.hpp\n'}
+[0.905772] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.hpp\n'}
+[0.905840] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.hpp\n'}
+[0.905979] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.hpp\n'}
+[0.906057] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.hpp\n'}
+[0.906126] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[0.906198] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[0.906256] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[0.906333] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/dds_fastrtps\n'}
+[0.906401] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.906474] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.906543] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.906612] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.906742] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.906816] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.906897] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[0.907045] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[0.907124] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907198] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907270] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907331] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/dds_fastrtps\n'}
+[0.907402] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907478] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907635] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907724] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.907814] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.907903] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs\n'}
+[0.908032] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg\n'}
+[0.908141] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail\n'}
+[0.908203] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.908307] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[0.908372] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.908434] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp\n'}
+[0.908504] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.908581] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp\n'}
+[0.908696] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.908773] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp\n'}
+[0.908932] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[0.909024] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.909087] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv\n'}
+[0.909155] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail\n'}
+[0.909231] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.909350] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.909447] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp\n'}
+[0.909519] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.909664] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp\n'}
+[0.909776] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.909847] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp\n'}
+[0.909971] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp\n'}
+[0.910083] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.910181] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp\n'}
+[0.910303] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.910400] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp\n'}
+[0.910526] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.910646] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp\n'}
+[0.910762] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.910836] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[0.910916] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.sh\n'}
+[0.910996] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.dsv\n'}
+[0.911065] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info\n'}
+[0.911134] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/PKG-INFO\n'}
+[0.911201] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/top_level.txt\n'}
+[0.911280] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/SOURCES.txt\n'}
+[0.911347] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/dependency_links.txt\n'}
+[0.911414] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs\n'}
+[0.911483] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.911552] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg\n'}
+[0.911619] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py\n'}
+[0.911686] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info_s.c\n'}
+[0.911754] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py\n'}
+[0.911823] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata_s.c\n'}
+[0.911928] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd_s.c\n'}
+[0.912000] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py\n'}
+[0.912063] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py\n'}
+[0.912131] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info.py\n'}
+[0.912199] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics_s.c\n'}
+[0.912260] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info_s.c\n'}
+[0.912324] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd.py\n'}
+[0.912394] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.912458] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv\n'}
+[0.912525] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32_s.c\n'}
+[0.912595] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py\n'}
+[0.912661] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info_s.c\n'}
+[0.912733] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info_s.c\n'}
+[0.912814] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool_s.c\n'}
+[0.912895] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string_s.c\n'}
+[0.912977] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py\n'}
+[0.913046] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py\n'}
+[0.913111] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py\n'}
+[0.913177] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32_s.c\n'}
+[0.913249] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py\n'}
+[0.913331] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string_s.c\n'}
+[0.913405] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py\n'}
+[0.913473] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py\n'}
+[0.913539] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py\n'}
+[0.913605] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.913673] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py\n'}
+[0.913739] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.913808] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so\n'}
+[0.913892] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.913978] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.945938] (orbbec_camera_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs'...\n"}
+[0.946324] (orbbec_camera_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg'...\n"}
+[0.946469] (orbbec_camera_msgs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv'...\n"}
+[0.953483] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.954030] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.954611] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.955226] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so\n'}
+[0.955585] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.idl\n'}
+[0.955725] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.idl\n'}
+[0.955848] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.idl\n'}
+[0.955966] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.idl\n'}
+[0.956041] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.idl\n'}
+[0.956171] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.idl\n'}
+[0.956310] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[0.956439] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.idl\n'}
+[0.956533] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.idl\n'}
+[0.956647] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.idl\n'}
+[0.956768] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.idl\n'}
+[0.956922] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.idl\n'}
+[0.957054] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.msg\n'}
+[0.957162] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.msg\n'}
+[0.957245] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.msg\n'}
+[0.957386] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.msg\n'}
+[0.957489] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.msg\n'}
+[0.957567] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.srv\n'}
+[0.957642] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Request.msg\n'}
+[0.957718] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Response.msg\n'}
+[0.957792] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[0.957939] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[0.958094] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[0.958178] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.srv\n'}
+[0.958316] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[0.958400] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[0.958532] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.srv\n'}
+[0.958612] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Request.msg\n'}
+[0.958740] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Response.msg\n'}
+[0.958834] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.srv\n'}
+[0.958999] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Request.msg\n'}
+[0.959075] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Response.msg\n'}
+[0.959185] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.srv\n'}
+[0.959267] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Request.msg\n'}
+[0.959387] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Response.msg\n'}
+[0.959502] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.srv\n'}
+[0.959589] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Request.msg\n'}
+[0.959658] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Response.msg\n'}
+[0.959753] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/package_run_dependencies/orbbec_camera_msgs\n'}
+[0.959849] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/parent_prefix_path/orbbec_camera_msgs\n'}
+[0.959958] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.sh\n'}
+[0.960063] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[0.960133] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.sh\n'}
+[0.960241] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.dsv\n'}
+[0.960343] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.bash\n'}
+[0.960431] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.sh\n'}
+[0.960497] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.zsh\n'}
+[0.960569] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.dsv\n'}
+[0.960641] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv\n'}
+[0.960954] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/packages/orbbec_camera_msgs\n'}
+[0.961595] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[0.961703] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport-release.cmake\n'}
+[0.962033] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.962156] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[0.962504] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.962612] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.962959] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.963117] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[0.963423] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.963756] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.963891] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[0.964248] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.964376] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.964734] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.964877] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.965237] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.965363] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[0.965502] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.965624] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.965734] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.965837] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.965992] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.966114] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.966236] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.966350] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig.cmake\n'}
+[0.966442] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig-version.cmake\n'}
+[0.966514] (orbbec_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.xml\n'}
+[0.969710] (orbbec_camera_msgs) CommandEnded: {'returncode': 0}
+[1.001046] (-) TimerEvent: {}
+[1.101412] (-) TimerEvent: {}
+[1.112031] (save_files) StdoutLine: {'line': b'running egg_info\n'}
+[1.113349] (save_files) StdoutLine: {'line': b'writing ../../build/save_files/save_files.egg-info/PKG-INFO\n'}
+[1.115514] (save_files) StdoutLine: {'line': b'writing dependency_links to ../../build/save_files/save_files.egg-info/dependency_links.txt\n'}
+[1.115735] (save_files) StdoutLine: {'line': b'writing entry points to ../../build/save_files/save_files.egg-info/entry_points.txt\n'}
+[1.115853] (save_files) StdoutLine: {'line': b'writing requirements to ../../build/save_files/save_files.egg-info/requires.txt\n'}
+[1.116020] (save_files) StdoutLine: {'line': b'writing top-level names to ../../build/save_files/save_files.egg-info/top_level.txt\n'}
+[1.118352] (save_files) StdoutLine: {'line': b"reading manifest file '../../build/save_files/save_files.egg-info/SOURCES.txt'\n"}
+[1.119429] (save_files) StdoutLine: {'line': b"writing manifest file '../../build/save_files/save_files.egg-info/SOURCES.txt'\n"}
+[1.119639] (save_files) StdoutLine: {'line': b'running build\n'}
+[1.119708] (save_files) StdoutLine: {'line': b'running build_py\n'}
+[1.120559] (save_files) StdoutLine: {'line': b'running install\n'}
+[1.120922] (save_files) StdoutLine: {'line': b'running install_lib\n'}
+[1.122611] (save_files) StdoutLine: {'line': b'running install_data\n'}
+[1.124176] (save_files) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.126278] (save_files) StdoutLine: {'line': b"removing '/root/ros2_ws/install/save_files/lib/python3.10/site-packages/save_files-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.126648] (save_files) StdoutLine: {'line': b'Copying ../../build/save_files/save_files.egg-info to /root/ros2_ws/install/save_files/lib/python3.10/site-packages/save_files-0.0.0-py3.10.egg-info\n'}
+[1.127741] (save_files) StdoutLine: {'line': b'running install_scripts\n'}
+[1.150456] (save_files) StdoutLine: {'line': b'Installing save_files_node script to /root/ros2_ws/install/save_files/lib/save_files\n'}
+[1.151135] (save_files) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/save_files/install.log'\n"}
+[1.192880] (save_files) CommandEnded: {'returncode': 0}
+[1.199769] (save_files) JobEnded: {'identifier': 'save_files', 'rc': 0}
+[1.201500] (-) TimerEvent: {}
+[1.285981] (orbbec_camera_msgs) JobEnded: {'identifier': 'orbbec_camera_msgs', 'rc': 0}
+[1.286560] (orbbec_camera) JobStarted: {'identifier': 'orbbec_camera'}
+[1.295475] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'cmake'}
+[1.296369] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'build'}
+[1.296762] (orbbec_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/orbbec_camera', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/orbbec_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/orbbec_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[1.301610] (-) TimerEvent: {}
+[1.362686] (orbbec_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target frame_latency_node\x1b[0m\n'}
+[1.363354] (orbbec_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera_node\x1b[0m\n'}
+[1.364460] (orbbec_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orbbec_camera\x1b[0m\n'}
+[1.375103] (orbbec_camera) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o\x1b[0m\n'}
+[1.387252] (orbbec_camera) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o\x1b[0m\n'}
+[1.395037] (orbbec_camera) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o\x1b[0m\n'}
+[1.395296] (orbbec_camera) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o\x1b[0m\n'}
+[1.395371] (orbbec_camera) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o\x1b[0m\n'}
+[1.395440] (orbbec_camera) StdoutLine: {'line': b'[ 40%] Built target orbbec_camera_node\n'}
+[1.395505] (orbbec_camera) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o\x1b[0m\n'}
+[1.395575] (orbbec_camera) StdoutLine: {'line': b'[ 40%] Built target frame_latency_node\n'}
+[1.401795] (-) TimerEvent: {}
+[1.407959] (orbbec_camera) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o\x1b[0m\n'}
+[1.408191] (orbbec_camera) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o\x1b[0m\n'}
+[1.501969] (-) TimerEvent: {}
+[1.603517] (-) TimerEvent: {}
+[1.704020] (-) TimerEvent: {}
+[1.804712] (-) TimerEvent: {}
+[1.905203] (-) TimerEvent: {}
+[2.007677] (-) TimerEvent: {}
+[2.108065] (-) TimerEvent: {}
+[2.208477] (-) TimerEvent: {}
+[2.309978] (-) TimerEvent: {}
+[2.410377] (-) TimerEvent: {}
+[2.510807] (-) TimerEvent: {}
+[2.612198] (-) TimerEvent: {}
+[2.712634] (-) TimerEvent: {}
+[2.813204] (-) TimerEvent: {}
+[2.915105] (-) TimerEvent: {}
+[3.015550] (-) TimerEvent: {}
+[3.115982] (-) TimerEvent: {}
+[3.218985] (-) TimerEvent: {}
+[3.319444] (-) TimerEvent: {}
+[3.419928] (-) TimerEvent: {}
+[3.520376] (-) TimerEvent: {}
+[3.620833] (-) TimerEvent: {}
+[3.721300] (-) TimerEvent: {}
+[3.821986] (-) TimerEvent: {}
+[3.923984] (-) TimerEvent: {}
+[4.024441] (-) TimerEvent: {}
+[4.124898] (-) TimerEvent: {}
+[4.225363] (-) TimerEvent: {}
+[4.326989] (-) TimerEvent: {}
+[4.427482] (-) TimerEvent: {}
+[4.527948] (-) TimerEvent: {}
+[4.630979] (-) TimerEvent: {}
+[4.731459] (-) TimerEvent: {}
+[4.831929] (-) TimerEvent: {}
+[4.932382] (-) TimerEvent: {}
+[5.032812] (-) TimerEvent: {}
+[5.133301] (-) TimerEvent: {}
+[5.234986] (-) TimerEvent: {}
+[5.335420] (-) TimerEvent: {}
+[5.435864] (-) TimerEvent: {}
+[5.536292] (-) TimerEvent: {}
+[5.637983] (-) TimerEvent: {}
+[5.738435] (-) TimerEvent: {}
+[5.838902] (-) TimerEvent: {}
+[5.939983] (-) TimerEvent: {}
+[6.041983] (-) TimerEvent: {}
+[6.142411] (-) TimerEvent: {}
+[6.242854] (-) TimerEvent: {}
+[6.343297] (-) TimerEvent: {}
+[6.444983] (-) TimerEvent: {}
+[6.545466] (-) TimerEvent: {}
+[6.645915] (-) TimerEvent: {}
+[6.746991] (-) TimerEvent: {}
+[6.847437] (-) TimerEvent: {}
+[6.952002] (-) TimerEvent: {}
+[7.052447] (-) TimerEvent: {}
+[7.152951] (-) TimerEvent: {}
+[7.253418] (-) TimerEvent: {}
+[7.353862] (-) TimerEvent: {}
+[7.454322] (-) TimerEvent: {}
+[7.554772] (-) TimerEvent: {}
+[7.655222] (-) TimerEvent: {}
+[7.755655] (-) TimerEvent: {}
+[7.856081] (-) TimerEvent: {}
+[7.956974] (-) TimerEvent: {}
+[8.057385] (-) TimerEvent: {}
+[8.158982] (-) TimerEvent: {}
+[8.259420] (-) TimerEvent: {}
+[8.359861] (-) TimerEvent: {}
+[8.462002] (-) TimerEvent: {}
+[8.562438] (-) TimerEvent: {}
+[8.662889] (-) TimerEvent: {}
+[8.763333] (-) TimerEvent: {}
+[8.864979] (-) TimerEvent: {}
+[8.965394] (-) TimerEvent: {}
+[9.065835] (-) TimerEvent: {}
+[9.169983] (-) TimerEvent: {}
+[9.270443] (-) TimerEvent: {}
+[9.370896] (-) TimerEvent: {}
+[9.471348] (-) TimerEvent: {}
+[9.571828] (-) TimerEvent: {}
+[9.672269] (-) TimerEvent: {}
+[9.772709] (-) TimerEvent: {}
+[9.873156] (-) TimerEvent: {}
+[9.973593] (-) TimerEvent: {}
+[10.074987] (-) TimerEvent: {}
+[10.175462] (-) TimerEvent: {}
+[10.278077] (-) TimerEvent: {}
+[10.378532] (-) TimerEvent: {}
+[10.479093] (-) TimerEvent: {}
+[10.579538] (-) TimerEvent: {}
+[10.680984] (-) TimerEvent: {}
+[10.781430] (-) TimerEvent: {}
+[10.881896] (-) TimerEvent: {}
+[10.984027] (-) TimerEvent: {}
+[11.084467] (-) TimerEvent: {}
+[11.185070] (-) TimerEvent: {}
+[11.285552] (-) TimerEvent: {}
+[11.386011] (-) TimerEvent: {}
+[11.486425] (-) TimerEvent: {}
+[11.586864] (-) TimerEvent: {}
+[11.687971] (-) TimerEvent: {}
+[11.788342] (-) TimerEvent: {}
+[11.888731] (-) TimerEvent: {}
+[11.989122] (-) TimerEvent: {}
+[12.089555] (-) TimerEvent: {}
+[12.190635] (-) TimerEvent: {}
+[12.291103] (-) TimerEvent: {}
+[12.391997] (-) TimerEvent: {}
+[12.492424] (-) TimerEvent: {}
+[12.592817] (-) TimerEvent: {}
+[12.693262] (-) TimerEvent: {}
+[12.793830] (-) TimerEvent: {}
+[12.894287] (-) TimerEvent: {}
+[12.994725] (-) TimerEvent: {}
+[13.095183] (-) TimerEvent: {}
+[13.195625] (-) TimerEvent: {}
+[13.296083] (-) TimerEvent: {}
+[13.396521] (-) TimerEvent: {}
+[13.496958] (-) TimerEvent: {}
+[13.597375] (-) TimerEvent: {}
+[13.697790] (-) TimerEvent: {}
+[13.798195] (-) TimerEvent: {}
+[13.898592] (-) TimerEvent: {}
+[13.998971] (-) TimerEvent: {}
+[14.099364] (-) TimerEvent: {}
+[14.199777] (-) TimerEvent: {}
+[14.300210] (-) TimerEvent: {}
+[14.400631] (-) TimerEvent: {}
+[14.501049] (-) TimerEvent: {}
+[14.601710] (-) TimerEvent: {}
+[14.702183] (-) TimerEvent: {}
+[14.802623] (-) TimerEvent: {}
+[14.903056] (-) TimerEvent: {}
+[15.003484] (-) TimerEvent: {}
+[15.103926] (-) TimerEvent: {}
+[15.204355] (-) TimerEvent: {}
+[15.304798] (-) TimerEvent: {}
+[15.405248] (-) TimerEvent: {}
+[15.505738] (-) TimerEvent: {}
+[15.606203] (-) TimerEvent: {}
+[15.706641] (-) TimerEvent: {}
+[15.807070] (-) TimerEvent: {}
+[15.907454] (-) TimerEvent: {}
+[16.011502] (-) TimerEvent: {}
+[16.112051] (-) TimerEvent: {}
+[16.212502] (-) TimerEvent: {}
+[16.312941] (-) TimerEvent: {}
+[16.415017] (-) TimerEvent: {}
+[16.515452] (-) TimerEvent: {}
+[16.615894] (-) TimerEvent: {}
+[16.716294] (-) TimerEvent: {}
+[16.816711] (-) TimerEvent: {}
+[16.917162] (-) TimerEvent: {}
+[17.017815] (-) TimerEvent: {}
+[17.118309] (-) TimerEvent: {}
+[17.218756] (-) TimerEvent: {}
+[17.319243] (-) TimerEvent: {}
+[17.419693] (-) TimerEvent: {}
+[17.520134] (-) TimerEvent: {}
+[17.620576] (-) TimerEvent: {}
+[17.720997] (-) TimerEvent: {}
+[17.821420] (-) TimerEvent: {}
+[17.922466] (-) TimerEvent: {}
+[18.022887] (-) TimerEvent: {}
+[18.123312] (-) TimerEvent: {}
+[18.223789] (-) TimerEvent: {}
+[18.324238] (-) TimerEvent: {}
+[18.424676] (-) TimerEvent: {}
+[18.525094] (-) TimerEvent: {}
+[18.625508] (-) TimerEvent: {}
+[18.725975] (-) TimerEvent: {}
+[18.826390] (-) TimerEvent: {}
+[18.926829] (-) TimerEvent: {}
+[19.027279] (-) TimerEvent: {}
+[19.127729] (-) TimerEvent: {}
+[19.228217] (-) TimerEvent: {}
+[19.328721] (-) TimerEvent: {}
+[19.429151] (-) TimerEvent: {}
+[19.529567] (-) TimerEvent: {}
+[19.632778] (-) TimerEvent: {}
+[19.733232] (-) TimerEvent: {}
+[19.833666] (-) TimerEvent: {}
+[19.934121] (-) TimerEvent: {}
+[20.034533] (-) TimerEvent: {}
+[20.134973] (-) TimerEvent: {}
+[20.235421] (-) TimerEvent: {}
+[20.335858] (-) TimerEvent: {}
+[20.436300] (-) TimerEvent: {}
+[20.536697] (-) TimerEvent: {}
+[20.637133] (-) TimerEvent: {}
+[20.737554] (-) TimerEvent: {}
+[20.837991] (-) TimerEvent: {}
+[20.938389] (-) TimerEvent: {}
+[21.038942] (-) TimerEvent: {}
+[21.139580] (-) TimerEvent: {}
+[21.239998] (-) TimerEvent: {}
+[21.340442] (-) TimerEvent: {}
+[21.440914] (-) TimerEvent: {}
+[21.541341] (-) TimerEvent: {}
+[21.641740] (-) TimerEvent: {}
+[21.742159] (-) TimerEvent: {}
+[21.842558] (-) TimerEvent: {}
+[21.942972] (-) TimerEvent: {}
+[22.043366] (-) TimerEvent: {}
+[22.143803] (-) TimerEvent: {}
+[22.244219] (-) TimerEvent: {}
+[22.344636] (-) TimerEvent: {}
+[22.445061] (-) TimerEvent: {}
+[22.545891] (-) TimerEvent: {}
+[22.646307] (-) TimerEvent: {}
+[22.746696] (-) TimerEvent: {}
+[22.847102] (-) TimerEvent: {}
+[22.947493] (-) TimerEvent: {}
+[23.047929] (-) TimerEvent: {}
+[23.148345] (-) TimerEvent: {}
+[23.248760] (-) TimerEvent: {}
+[23.349162] (-) TimerEvent: {}
+[23.449555] (-) TimerEvent: {}
+[23.549965] (-) TimerEvent: {}
+[23.650371] (-) TimerEvent: {}
+[23.750805] (-) TimerEvent: {}
+[23.851227] (-) TimerEvent: {}
+[23.951657] (-) TimerEvent: {}
+[24.052052] (-) TimerEvent: {}
+[24.152446] (-) TimerEvent: {}
+[24.252796] (-) TimerEvent: {}
+[24.353180] (-) TimerEvent: {}
+[24.453584] (-) TimerEvent: {}
+[24.553973] (-) TimerEvent: {}
+[24.654392] (-) TimerEvent: {}
+[24.754852] (-) TimerEvent: {}
+[24.855264] (-) TimerEvent: {}
+[24.955695] (-) TimerEvent: {}
+[25.056127] (-) TimerEvent: {}
+[25.156528] (-) TimerEvent: {}
+[25.256931] (-) TimerEvent: {}
+[25.357331] (-) TimerEvent: {}
+[25.457730] (-) TimerEvent: {}
+[25.558183] (-) TimerEvent: {}
+[25.658572] (-) TimerEvent: {}
+[25.758971] (-) TimerEvent: {}
+[25.859358] (-) TimerEvent: {}
+[25.959736] (-) TimerEvent: {}
+[26.060151] (-) TimerEvent: {}
+[26.160540] (-) TimerEvent: {}
+[26.260949] (-) TimerEvent: {}
+[26.361325] (-) TimerEvent: {}
+[26.461736] (-) TimerEvent: {}
+[26.562138] (-) TimerEvent: {}
+[26.662530] (-) TimerEvent: {}
+[26.762955] (-) TimerEvent: {}
+[26.863344] (-) TimerEvent: {}
+[26.963747] (-) TimerEvent: {}
+[27.064113] (-) TimerEvent: {}
+[27.164488] (-) TimerEvent: {}
+[27.264943] (-) TimerEvent: {}
+[27.365318] (-) TimerEvent: {}
+[27.465675] (-) TimerEvent: {}
+[27.566039] (-) TimerEvent: {}
+[27.666397] (-) TimerEvent: {}
+[27.766764] (-) TimerEvent: {}
+[27.867134] (-) TimerEvent: {}
+[27.967483] (-) TimerEvent: {}
+[28.067828] (-) TimerEvent: {}
+[28.168298] (-) TimerEvent: {}
+[28.268640] (-) TimerEvent: {}
+[28.369039] (-) TimerEvent: {}
+[28.469412] (-) TimerEvent: {}
+[28.569762] (-) TimerEvent: {}
+[28.670164] (-) TimerEvent: {}
+[28.770581] (-) TimerEvent: {}
+[28.870968] (-) TimerEvent: {}
+[28.971339] (-) TimerEvent: {}
+[29.071732] (-) TimerEvent: {}
+[29.172116] (-) TimerEvent: {}
+[29.272472] (-) TimerEvent: {}
+[29.372864] (-) TimerEvent: {}
+[29.473270] (-) TimerEvent: {}
+[29.573655] (-) TimerEvent: {}
+[29.674049] (-) TimerEvent: {}
+[29.774435] (-) TimerEvent: {}
+[29.874825] (-) TimerEvent: {}
+[29.975220] (-) TimerEvent: {}
+[30.075601] (-) TimerEvent: {}
+[30.175967] (-) TimerEvent: {}
+[30.276362] (-) TimerEvent: {}
+[30.376770] (-) TimerEvent: {}
+[30.477207] (-) TimerEvent: {}
+[30.577581] (-) TimerEvent: {}
+[30.677959] (-) TimerEvent: {}
+[30.778333] (-) TimerEvent: {}
+[30.878696] (-) TimerEvent: {}
+[30.979061] (-) TimerEvent: {}
+[31.079444] (-) TimerEvent: {}
+[31.179810] (-) TimerEvent: {}
+[31.280195] (-) TimerEvent: {}
+[31.380586] (-) TimerEvent: {}
+[31.480970] (-) TimerEvent: {}
+[31.581571] (-) TimerEvent: {}
+[31.682263] (-) TimerEvent: {}
+[31.782672] (-) TimerEvent: {}
+[31.883212] (-) TimerEvent: {}
+[31.983629] (-) TimerEvent: {}
+[32.084073] (-) TimerEvent: {}
+[32.184915] (-) TimerEvent: {}
+[32.285509] (-) TimerEvent: {}
+[32.385968] (-) TimerEvent: {}
+[32.486768] (-) TimerEvent: {}
+[32.587232] (-) TimerEvent: {}
+[32.687836] (-) TimerEvent: {}
+[32.788687] (-) TimerEvent: {}
+[32.889485] (-) TimerEvent: {}
+[32.990237] (-) TimerEvent: {}
+[33.090943] (-) TimerEvent: {}
+[33.191614] (-) TimerEvent: {}
+[33.292040] (-) TimerEvent: {}
+[33.392726] (-) TimerEvent: {}
+[33.493430] (-) TimerEvent: {}
+[33.594127] (-) TimerEvent: {}
+[33.694743] (-) TimerEvent: {}
+[33.795341] (-) TimerEvent: {}
+[33.895972] (-) TimerEvent: {}
+[33.996499] (-) TimerEvent: {}
+[34.097224] (-) TimerEvent: {}
+[34.197851] (-) TimerEvent: {}
+[34.298526] (-) TimerEvent: {}
+[34.399040] (-) TimerEvent: {}
+[34.499481] (-) TimerEvent: {}
+[34.599980] (-) TimerEvent: {}
+[34.700444] (-) TimerEvent: {}
+[34.800927] (-) TimerEvent: {}
+[34.901623] (-) TimerEvent: {}
+[35.002310] (-) TimerEvent: {}
+[35.102990] (-) TimerEvent: {}
+[35.203409] (-) TimerEvent: {}
+[35.304078] (-) TimerEvent: {}
+[35.404759] (-) TimerEvent: {}
+[35.505599] (-) TimerEvent: {}
+[35.606287] (-) TimerEvent: {}
+[35.706912] (-) TimerEvent: {}
+[35.807349] (-) TimerEvent: {}
+[35.908074] (-) TimerEvent: {}
+[36.008700] (-) TimerEvent: {}
+[36.109394] (-) TimerEvent: {}
+[36.210012] (-) TimerEvent: {}
+[36.310700] (-) TimerEvent: {}
+[36.411405] (-) TimerEvent: {}
+[36.512172] (-) TimerEvent: {}
+[36.612857] (-) TimerEvent: {}
+[36.713511] (-) TimerEvent: {}
+[36.814231] (-) TimerEvent: {}
+[36.914650] (-) TimerEvent: {}
+[37.015112] (-) TimerEvent: {}
+[37.115958] (-) TimerEvent: {}
+[37.216620] (-) TimerEvent: {}
+[37.317267] (-) TimerEvent: {}
+[37.417906] (-) TimerEvent: {}
+[37.518757] (-) TimerEvent: {}
+[37.619449] (-) TimerEvent: {}
+[37.720139] (-) TimerEvent: {}
+[37.820816] (-) TimerEvent: {}
+[37.921648] (-) TimerEvent: {}
+[38.022113] (-) TimerEvent: {}
+[38.122727] (-) TimerEvent: {}
+[38.223490] (-) TimerEvent: {}
+[38.324108] (-) TimerEvent: {}
+[38.424779] (-) TimerEvent: {}
+[38.525477] (-) TimerEvent: {}
+[38.626132] (-) TimerEvent: {}
+[38.726817] (-) TimerEvent: {}
+[38.827457] (-) TimerEvent: {}
+[38.928266] (-) TimerEvent: {}
+[39.028933] (-) TimerEvent: {}
+[39.129621] (-) TimerEvent: {}
+[39.230148] (-) TimerEvent: {}
+[39.330559] (-) TimerEvent: {}
+[39.430990] (-) TimerEvent: {}
+[39.531401] (-) TimerEvent: {}
+[39.632095] (-) TimerEvent: {}
+[39.732972] (-) TimerEvent: {}
+[39.833395] (-) TimerEvent: {}
+[39.934012] (-) TimerEvent: {}
+[40.034829] (-) TimerEvent: {}
+[40.135537] (-) TimerEvent: {}
+[40.235969] (-) TimerEvent: {}
+[40.336725] (-) TimerEvent: {}
+[40.437370] (-) TimerEvent: {}
+[40.538051] (-) TimerEvent: {}
+[40.638729] (-) TimerEvent: {}
+[40.739608] (-) TimerEvent: {}
+[40.840311] (-) TimerEvent: {}
+[40.940749] (-) TimerEvent: {}
+[41.041506] (-) TimerEvent: {}
+[41.142173] (-) TimerEvent: {}
+[41.242859] (-) TimerEvent: {}
+[41.343555] (-) TimerEvent: {}
+[41.444352] (-) TimerEvent: {}
+[41.545023] (-) TimerEvent: {}
+[41.645579] (-) TimerEvent: {}
+[41.746021] (-) TimerEvent: {}
+[41.846462] (-) TimerEvent: {}
+[41.947189] (-) TimerEvent: {}
+[42.047917] (-) TimerEvent: {}
+[42.148593] (-) TimerEvent: {}
+[42.249273] (-) TimerEvent: {}
+[42.350039] (-) TimerEvent: {}
+[42.450729] (-) TimerEvent: {}
+[42.551430] (-) TimerEvent: {}
+[42.652099] (-) TimerEvent: {}
+[42.752891] (-) TimerEvent: {}
+[42.853479] (-) TimerEvent: {}
+[42.953920] (-) TimerEvent: {}
+[43.054737] (-) TimerEvent: {}
+[43.155412] (-) TimerEvent: {}
+[43.191619] (orbbec_camera) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library liborbbec_camera.so\x1b[0m\n'}
+[43.255746] (-) TimerEvent: {}
+[43.356444] (-) TimerEvent: {}
+[43.457093] (-) TimerEvent: {}
+[43.557771] (-) TimerEvent: {}
+[43.658276] (-) TimerEvent: {}
+[43.758778] (-) TimerEvent: {}
+[43.859237] (-) TimerEvent: {}
+[43.959832] (-) TimerEvent: {}
+[43.989838] (orbbec_camera) StdoutLine: {'line': b'[ 64%] Built target orbbec_camera\n'}
+[44.019203] (orbbec_camera) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o\x1b[0m\n'}
+[44.019434] (orbbec_camera) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o\x1b[0m\n'}
+[44.019520] (orbbec_camera) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o\x1b[0m\n'}
+[44.022360] (orbbec_camera) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o\x1b[0m\n'}
+[44.059958] (-) TimerEvent: {}
+[44.160295] (-) TimerEvent: {}
+[44.260673] (-) TimerEvent: {}
+[44.361134] (-) TimerEvent: {}
+[44.461484] (-) TimerEvent: {}
+[44.561841] (-) TimerEvent: {}
+[44.662191] (-) TimerEvent: {}
+[44.762593] (-) TimerEvent: {}
+[44.863095] (-) TimerEvent: {}
+[44.963507] (-) TimerEvent: {}
+[45.063921] (-) TimerEvent: {}
+[45.164317] (-) TimerEvent: {}
+[45.264720] (-) TimerEvent: {}
+[45.365172] (-) TimerEvent: {}
+[45.465613] (-) TimerEvent: {}
+[45.566086] (-) TimerEvent: {}
+[45.666538] (-) TimerEvent: {}
+[45.767003] (-) TimerEvent: {}
+[45.867472] (-) TimerEvent: {}
+[45.967916] (-) TimerEvent: {}
+[46.068360] (-) TimerEvent: {}
+[46.168817] (-) TimerEvent: {}
+[46.269294] (-) TimerEvent: {}
+[46.369730] (-) TimerEvent: {}
+[46.470178] (-) TimerEvent: {}
+[46.570607] (-) TimerEvent: {}
+[46.671052] (-) TimerEvent: {}
+[46.771488] (-) TimerEvent: {}
+[46.871946] (-) TimerEvent: {}
+[46.972391] (-) TimerEvent: {}
+[47.072826] (-) TimerEvent: {}
+[47.173246] (-) TimerEvent: {}
+[47.273678] (-) TimerEvent: {}
+[47.374115] (-) TimerEvent: {}
+[47.474540] (-) TimerEvent: {}
+[47.574969] (-) TimerEvent: {}
+[47.675409] (-) TimerEvent: {}
+[47.775856] (-) TimerEvent: {}
+[47.872906] (orbbec_camera) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libframe_latency.so\x1b[0m\n'}
+[47.875996] (-) TimerEvent: {}
+[47.976423] (-) TimerEvent: {}
+[48.076911] (-) TimerEvent: {}
+[48.177398] (-) TimerEvent: {}
+[48.277932] (-) TimerEvent: {}
+[48.378385] (-) TimerEvent: {}
+[48.478815] (-) TimerEvent: {}
+[48.579248] (-) TimerEvent: {}
+[48.613677] (orbbec_camera) StdoutLine: {'line': b'[ 84%] Built target frame_latency\n'}
+[48.679389] (-) TimerEvent: {}
+[48.779785] (-) TimerEvent: {}
+[48.880202] (-) TimerEvent: {}
+[48.980598] (-) TimerEvent: {}
+[49.080996] (-) TimerEvent: {}
+[49.181401] (-) TimerEvent: {}
+[49.281806] (-) TimerEvent: {}
+[49.382241] (-) TimerEvent: {}
+[49.482653] (-) TimerEvent: {}
+[49.583069] (-) TimerEvent: {}
+[49.683481] (-) TimerEvent: {}
+[49.783894] (-) TimerEvent: {}
+[49.884295] (-) TimerEvent: {}
+[49.984717] (-) TimerEvent: {}
+[50.085146] (-) TimerEvent: {}
+[50.185579] (-) TimerEvent: {}
+[50.286008] (-) TimerEvent: {}
+[50.386428] (-) TimerEvent: {}
+[50.486855] (-) TimerEvent: {}
+[50.587294] (-) TimerEvent: {}
+[50.687692] (-) TimerEvent: {}
+[50.788115] (-) TimerEvent: {}
+[50.888497] (-) TimerEvent: {}
+[50.988891] (-) TimerEvent: {}
+[51.089288] (-) TimerEvent: {}
+[51.189688] (-) TimerEvent: {}
+[51.290109] (-) TimerEvent: {}
+[51.390511] (-) TimerEvent: {}
+[51.490943] (-) TimerEvent: {}
+[51.591334] (-) TimerEvent: {}
+[51.691831] (-) TimerEvent: {}
+[51.792277] (-) TimerEvent: {}
+[51.892723] (-) TimerEvent: {}
+[51.993115] (-) TimerEvent: {}
+[52.093499] (-) TimerEvent: {}
+[52.193926] (-) TimerEvent: {}
+[52.294340] (-) TimerEvent: {}
+[52.394762] (-) TimerEvent: {}
+[52.495149] (-) TimerEvent: {}
+[52.595540] (-) TimerEvent: {}
+[52.695937] (-) TimerEvent: {}
+[52.796321] (-) TimerEvent: {}
+[52.896707] (-) TimerEvent: {}
+[52.997090] (-) TimerEvent: {}
+[53.097476] (-) TimerEvent: {}
+[53.197865] (-) TimerEvent: {}
+[53.298268] (-) TimerEvent: {}
+[53.398682] (-) TimerEvent: {}
+[53.499108] (-) TimerEvent: {}
+[53.599513] (-) TimerEvent: {}
+[53.699951] (-) TimerEvent: {}
+[53.800337] (-) TimerEvent: {}
+[53.900745] (-) TimerEvent: {}
+[54.001173] (-) TimerEvent: {}
+[54.101576] (-) TimerEvent: {}
+[54.201987] (-) TimerEvent: {}
+[54.302389] (-) TimerEvent: {}
+[54.402813] (-) TimerEvent: {}
+[54.503222] (-) TimerEvent: {}
+[54.603644] (-) TimerEvent: {}
+[54.704078] (-) TimerEvent: {}
+[54.804497] (-) TimerEvent: {}
+[54.904955] (-) TimerEvent: {}
+[55.005338] (-) TimerEvent: {}
+[55.105777] (-) TimerEvent: {}
+[55.206176] (-) TimerEvent: {}
+[55.306558] (-) TimerEvent: {}
+[55.342899] (orbbec_camera) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable list_camera_profile_mode_node\x1b[0m\n'}
+[55.406734] (-) TimerEvent: {}
+[55.507290] (-) TimerEvent: {}
+[55.607793] (-) TimerEvent: {}
+[55.655449] (orbbec_camera) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable list_depth_work_mode_node\x1b[0m\n'}
+[55.707990] (-) TimerEvent: {}
+[55.808455] (-) TimerEvent: {}
+[55.908928] (-) TimerEvent: {}
+[55.978611] (orbbec_camera) StdoutLine: {'line': b'[ 92%] Built target list_depth_work_mode_node\n'}
+[56.009061] (-) TimerEvent: {}
+[56.109418] (-) TimerEvent: {}
+[56.207428] (orbbec_camera) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable list_devices_node\x1b[0m\n'}
+[56.209535] (-) TimerEvent: {}
+[56.309957] (-) TimerEvent: {}
+[56.366567] (orbbec_camera) StdoutLine: {'line': b'[ 96%] Built target list_camera_profile_mode_node\n'}
+[56.410137] (-) TimerEvent: {}
+[56.510831] (-) TimerEvent: {}
+[56.611327] (-) TimerEvent: {}
+[56.711769] (-) TimerEvent: {}
+[56.812491] (-) TimerEvent: {}
+[56.912931] (-) TimerEvent: {}
+[56.999679] (orbbec_camera) StdoutLine: {'line': b'[ 96%] Built target list_devices_node\n'}
+[57.013093] (-) TimerEvent: {}
+[57.113456] (-) TimerEvent: {}
+[57.213854] (-) TimerEvent: {}
+[57.314260] (-) TimerEvent: {}
+[57.414638] (-) TimerEvent: {}
+[57.515037] (-) TimerEvent: {}
+[57.615435] (-) TimerEvent: {}
+[57.715827] (-) TimerEvent: {}
+[57.816252] (-) TimerEvent: {}
+[57.916644] (-) TimerEvent: {}
+[58.017058] (-) TimerEvent: {}
+[58.117443] (-) TimerEvent: {}
+[58.217847] (-) TimerEvent: {}
+[58.318244] (-) TimerEvent: {}
+[58.418646] (-) TimerEvent: {}
+[58.519087] (-) TimerEvent: {}
+[58.619482] (-) TimerEvent: {}
+[58.719909] (-) TimerEvent: {}
+[58.820311] (-) TimerEvent: {}
+[58.920707] (-) TimerEvent: {}
+[59.021116] (-) TimerEvent: {}
+[59.121499] (-) TimerEvent: {}
+[59.221922] (-) TimerEvent: {}
+[59.322357] (-) TimerEvent: {}
+[59.422782] (-) TimerEvent: {}
+[59.523188] (-) TimerEvent: {}
+[59.623570] (-) TimerEvent: {}
+[59.723944] (-) TimerEvent: {}
+[59.824477] (-) TimerEvent: {}
+[59.851120] (orbbec_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_statistics_node\x1b[0m\n'}
+[59.924624] (-) TimerEvent: {}
+[60.025003] (-) TimerEvent: {}
+[60.125409] (-) TimerEvent: {}
+[60.127705] (orbbec_camera) StdoutLine: {'line': b'[100%] Built target topic_statistics_node\n'}
+[60.142129] (orbbec_camera) CommandEnded: {'returncode': 0}
+[60.215823] (orbbec_camera) JobProgress: {'identifier': 'orbbec_camera', 'progress': 'install'}
+[60.216372] (orbbec_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/orbbec_camera'], 'cwd': '/root/ros2_ws/build/orbbec_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'IsraUbuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/orbbec_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[60.225485] (-) TimerEvent: {}
+[60.229443] (orbbec_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[60.229742] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node\n'}
+[60.230412] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.230550] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node\n'}
+[60.231060] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.231165] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so\n'}
+[60.236213] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.236462] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/libframe_latency.so\n'}
+[60.241690] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/libframe_latency.so" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.242006] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include\n'}
+[60.242095] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera\n'}
+[60.242151] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h\n'}
+[60.242799] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h\n'}
+[60.243113] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/constants.h\n'}
+[60.243300] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h\n'}
+[60.243403] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h\n'}
+[60.243627] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h\n'}
+[60.243795] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h\n'}
+[60.244032] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h\n'}
+[60.244188] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/utils.h\n'}
+[60.244352] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/image_publisher.h\n'}
+[60.244516] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h\n'}
+[60.244669] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h\n'}
+[60.244821] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/magic_enum\n'}
+[60.245039] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp\n'}
+[60.245422] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch\n'}
+[60.245699] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcl.py\n'}
+[60.245993] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py\n'}
+[60.246241] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.py\n'}
+[60.246489] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py\n'}
+[60.246732] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_net_camera.launch.py\n'}
+[60.246978] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py\n'}
+[60.247234] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.py\n'}
+[60.247494] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.py\n'}
+[60.247738] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py\n'}
+[60.247999] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.py\n'}
+[60.248244] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py\n'}
+[60.248489] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py\n'}
+[60.248756] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py\n'}
+[60.249020] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2VL.launch.py\n'}
+[60.249265] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_net_camera.launch.py\n'}
+[60.249493] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.py\n'}
+[60.249722] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py\n'}
+[60.249954] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.py\n'}
+[60.250184] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.py\n'}
+[60.250412] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew.launch.py\n'}
+[60.250639] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py\n'}
+[60.250863] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.py\n'}
+[60.251105] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_uw.launch.py\n'}
+[60.251328] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py\n'}
+[60.251569] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw2.launch.py\n'}
+[60.251796] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max.launch.py\n'}
+[60.252118] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew_lite.launch.py\n'}
+[60.252356] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py\n'}
+[60.252588] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.py\n'}
+[60.252979] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro2.launch.py\n'}
+[60.253228] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2XL.launch.py\n'}
+[60.253502] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.py\n'}
+[60.253767] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.py\n'}
+[60.253959] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py\n'}
+[60.254160] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py\n'}
+[60.254374] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.py\n'}
+[60.254660] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config\n'}
+[60.254856] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml\n'}
+[60.255465] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep\n'}
+[60.255581] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml\n'}
+[60.255783] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter\n'}
+[60.255971] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.8.json\n'}
+[60.256201] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json\n'}
+[60.256473] (orbbec_camera) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera/include\n'}
+[60.256566] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor\n'}
+[60.256713] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp\n'}
+[60.256948] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp\n'}
+[60.257236] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp\n'}
+[60.257407] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp\n'}
+[60.257574] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp\n'}
+[60.257763] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp\n'}
+[60.257963] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp\n'}
+[60.258130] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp\n'}
+[60.258298] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp\n'}
+[60.258486] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp\n'}
+[60.258658] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp\n'}
+[60.258881] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp\n'}
+[60.259057] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp\n'}
+[60.259215] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.h\n'}
+[60.259447] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp\n'}
+[60.259569] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h\n'}
+[60.259763] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Device.h\n'}
+[60.260175] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h\n'}
+[60.260373] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Frame.h\n'}
+[60.260611] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Context.h\n'}
+[60.260829] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Version.h\n'}
+[60.261071] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h\n'}
+[60.261294] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h\n'}
+[60.261517] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h\n'}
+[60.261787] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Error.h\n'}
+[60.261991] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h\n'}
+[60.262259] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Property.h\n'}
+[60.262423] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Utils.h\n'}
+[60.262638] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/Filter.h\n'}
+[60.262971] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h\n'}
+[60.263239] (orbbec_camera) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/orbbec_camera/lib/\n'}
+[60.263336] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so\n'}
+[60.263431] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//liblive555.so\n'}
+[60.265468] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.15\n'}
+[60.284499] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//libob_usb.so\n'}
+[60.284913] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//libdepthengine.so.2.0\n'}
+[60.286410] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//libdepthengine.so\n'}
+[60.286630] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10\n'}
+[60.286693] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node\n'}
+[60.286940] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.287038] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node\n'}
+[60.287331] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.287413] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node\n'}
+[60.287735] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.287819] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node\n'}
+[60.289393] (orbbec_camera) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node" to ":/root/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"\n'}
+[60.289544] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh\n'}
+[60.290080] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv\n'}
+[60.290763] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera\n'}
+[60.291154] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera\n'}
+[60.291412] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh\n'}
+[60.291790] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv\n'}
+[60.292054] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh\n'}
+[60.292438] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv\n'}
+[60.292718] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash\n'}
+[60.293014] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh\n'}
+[60.293261] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh\n'}
+[60.293495] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv\n'}
+[60.293721] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/package.dsv\n'}
+[60.294158] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera\n'}
+[60.294498] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera\n'}
+[60.294787] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[60.295048] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[60.295324] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[60.295652] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake\n'}
+[60.295877] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake\n'}
+[60.296136] (orbbec_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/orbbec_camera/share/orbbec_camera/package.xml\n'}
+[60.299094] (orbbec_camera) CommandEnded: {'returncode': 0}
+[60.325591] (-) TimerEvent: {}
+[60.394681] (orbbec_camera) JobEnded: {'identifier': 'orbbec_camera', 'rc': 0}
+[60.395391] (-) EventReactorShutdown: {}

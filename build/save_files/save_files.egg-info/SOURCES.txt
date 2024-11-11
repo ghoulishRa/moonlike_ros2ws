@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/save_files/save_files.egg-info/PKG-INFO
+../../build/save_files/save_files.egg-info/SOURCES.txt
+../../build/save_files/save_files.egg-info/dependency_links.txt
+../../build/save_files/save_files.egg-info/entry_points.txt
+../../build/save_files/save_files.egg-info/requires.txt
+../../build/save_files/save_files.egg-info/top_level.txt
+../../build/save_files/save_files.egg-info/zip-safe
+resource/save_files
+save_files/__init__.py
+save_files/save_files_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

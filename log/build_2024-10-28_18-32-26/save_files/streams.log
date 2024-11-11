@@ -1,0 +1,24 @@
+[1.343s] Invoking command in '/root/ros2_ws/src/save_files': PYTHONPATH=/root/ros2_ws/build/save_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/save_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/save_files build --build-base /root/ros2_ws/build/save_files/build install --record /root/ros2_ws/build/save_files/install.log --single-version-externally-managed install_data
+[1.703s] running egg_info
+[1.707s] writing ../../build/save_files/save_files.egg-info/PKG-INFO
+[1.712s] writing dependency_links to ../../build/save_files/save_files.egg-info/dependency_links.txt
+[1.712s] writing entry points to ../../build/save_files/save_files.egg-info/entry_points.txt
+[1.713s] writing requirements to ../../build/save_files/save_files.egg-info/requires.txt
+[1.713s] writing top-level names to ../../build/save_files/save_files.egg-info/top_level.txt
+[1.717s] reading manifest file '../../build/save_files/save_files.egg-info/SOURCES.txt'
+[1.718s] writing manifest file '../../build/save_files/save_files.egg-info/SOURCES.txt'
+[1.718s] running build
+[1.718s] running build_py
+[1.718s] copying save_files/save_files_node.py -> /root/ros2_ws/build/save_files/build/lib/save_files
+[1.719s] running install
+[1.720s] running install_lib
+[1.722s] copying /root/ros2_ws/build/save_files/build/lib/save_files/save_files_node.py -> /root/ros2_ws/install/save_files/lib/python3.10/site-packages/save_files
+[1.724s] byte-compiling /root/ros2_ws/install/save_files/lib/python3.10/site-packages/save_files/save_files_node.py to save_files_node.cpython-310.pyc
+[1.727s] running install_data
+[1.727s] running install_egg_info
+[1.729s] removing '/root/ros2_ws/install/save_files/lib/python3.10/site-packages/save_files-0.0.0-py3.10.egg-info' (and everything under it)
+[1.729s] Copying ../../build/save_files/save_files.egg-info to /root/ros2_ws/install/save_files/lib/python3.10/site-packages/save_files-0.0.0-py3.10.egg-info
+[1.731s] running install_scripts
+[1.769s] Installing save_files_node script to /root/ros2_ws/install/save_files/lib/save_files
+[1.771s] writing list of installed files to '/root/ros2_ws/build/save_files/install.log'
+[1.869s] Invoked command in '/root/ros2_ws/src/save_files' returned '0': PYTHONPATH=/root/ros2_ws/build/save_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/save_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/save_files build --build-base /root/ros2_ws/build/save_files/build install --record /root/ros2_ws/build/save_files/install.log --single-version-externally-managed install_data

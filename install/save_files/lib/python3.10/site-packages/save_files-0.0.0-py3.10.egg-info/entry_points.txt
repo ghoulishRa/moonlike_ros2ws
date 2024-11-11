@@ -1,0 +1,3 @@
+[console_scripts]
+save_files_node = save_files.save_files_node:main
+
